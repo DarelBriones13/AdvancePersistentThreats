@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APT Research | Darel S. Briones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-text">INITIALIZING SYSTEM</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-status">Loading modules...</div>
+        </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="scanline"></div>
+    
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <span class="theme-icon">🌙</span>
+            <span class="theme-icon">☀️</span>
+        </label>
+    </div>
+    
+    <!-- Hacking Animation Overlay -->
+    <div class="hack-overlay">
+        <div class="matrix-rain"></div>
+        <div class="hack-content">
+            <div class="hack-message">
+                <span class="system-breach">SYSTEM BREACH DETECTED</span>
+                <div class="breach-details">
+                    <p class="typing-text">> Initializing security protocols...</p>
+                    <p class="typing-text">> Analyzing threat vectors...</p>
+                    <p class="typing-text">> Accessing secure databases...</p>
+                    <p class="typing-text">> Bypassing firewalls...</p>
+                    <p class="typing-text">> Access granted.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="main-nav">
+        <div class="nav-logo" id="hackTrigger">APT_Research</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#discussion" class="nav-link">Discussion</a></li>
+            <li><a href="#articles" class="nav-link">Articles</a></li>
+            <li><a href="#reflections" class="nav-link">Reflections</a></li>
+            <li><a href="#about" class="nav-link">About Me</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <canvas id="matrix-canvas"></canvas>
+            <div class="glitch-container">
+                <h1 class="glitch-text" data-text="Advanced Persistent Threats">Advanced Persistent Threats</h1>
+            </div>
+            <p class="terminal-text">&gt; Analyzing cyber threats in real-time...</p>
+            <div class="hero-content">
+                <p>Exploring the complex world of sophisticated cyber threats that target organizations and nations.</p>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discussion" class="discussion-section">
+            <h2 class="section-title">Discussion</h2>
+            <div class="code-box">
+                <pre><code>
+class AdvancedPersistentThreat {
+    constructor() {
+        this.sophistication = "High";
+        this.persistence = "Long-term";
+        this.targeting = "Strategic";
+    }
+    
+    analyze() {
+        return "Continuous monitoring and advanced detection required";
+    }
+}
+                </code></pre>
+            </div>
+            <div class="discussion-content">
+                <p>Advanced Persistent Threats (APTs) represent the most sophisticated form of cyber attacks, characterized by their persistence, stealth, and strategic targeting.</p>
+                <p>These threats are typically state-sponsored or well-funded groups that conduct long-term campaigns against specific targets, often with political or economic motivations.</p>
+            </div>
+        </section>
+
+        <section id="articles" class="articles-section">
+            <h2 class="section-title">Articles</h2>
+            <div class="article-grid">
+                <!-- Article cards will be dynamically populated -->
+            </div>
+        </section>
+
+        <section id="reflections" class="reflections-section">
+            <h2 class="section-title">Reflections</h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-title">researcher_thoughts.log</span>
+                </div>
+                <div class="terminal-content">
+                    <p class="log-entry">[2024-03-20] Advanced Persistent Threats (APTs) are not just malicious code—they are a <strong>mindset</strong>, a <strong>strategy</strong>, a shadow that evolves alongside us. What makes APTs terrifying isn't just their sophistication, but their <strong>patience</strong>. Unlike common cyberattacks, APTs linger. They observe. They learn.</p>
+                    <p class="log-entry">[2024-03-19] As I dove deeper into the world of cybersecurity, I came to a sobering realization: <strong>no system is ever truly safe</strong>. Every line of code, every open port, and every human interaction is a potential exploit waiting to be discovered.</p>
+                    <p class="log-entry">[2024-03-18] This <strong>cat-and-mouse game</strong> between defenders and intruders never ends. Each new defense mechanism is met with increasingly sophisticated countermeasures. The battlefield is digital, but the stakes are very real.</p>
+                    <p class="log-entry">[2024-03-17] The true challenge lies not in building higher walls, but in understanding the nature of the threat itself. APTs are not just attacks—they are a manifestation of <strong>human ingenuity turned against itself</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="img/photo_2025-05-08_19-07-48.jpg" alt="Darel S. Briones - Cybersecurity Researcher">
+                </div>
+                <div class="profile-content">
+                    <h3>Darel S. Briones</h3>
+                    <p>Cybersecurity Researcher & Developer</p>
+                    <div class="bio">
+                        <p>Passionate about understanding and combating advanced cyber threats. Focused on developing innovative solutions to protect against sophisticated attacks.</p>
+                        <p>Specializing in APT analysis, threat intelligence, and security research.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Darel S. Briones | APT Research Project</p>
+        <p class="footer-note">Built with modern web technologies</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
